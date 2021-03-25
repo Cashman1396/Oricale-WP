@@ -1,4 +1,5 @@
 <?php
+add_theme_support( 'post-thumbnails', array( 'projects' ) ); // adds thumbnail support for the Projects CPT
 
 
 function setup_projects_cpt(){
